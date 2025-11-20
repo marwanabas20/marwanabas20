@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marwan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Marwan<span>.</span></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I’m <span>Marwan</span></h2>
+    <p>Frontend Developer & UI Designer</p>
+    <button id="hireBtn">Hire Me</button>
+  </section>
+
+  <section id="about" class="fade">
+    <h3>About Me</h3>
+    <p>I’m a creative developer passionate about building beautiful, fast, and responsive websites that make a difference.</p>
+  </section>
+
+  <section id="skills" class="fade">
+    <h3>Skills</h3>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">UI Design</div>
+    </div>
+  </section>
+
+  <section id="projects" class="fade">
+    <h3>Projects</h3>
+    <div class="projects">
+      <div class="project">
+        <h4>Modern Portfolio</h4>
+        <p>Personal responsive website built with HTML, CSS, and JS animations.</p>
+      </div>
+      <div class="project">
+        <h4>Interactive App</h4>
+        <p>Web app with live data and smooth transitions for a better user experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade">
+    <h3>Contact Me</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Marwan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
